@@ -1,4 +1,8 @@
-nums = input(int("enter numbers seperated by spaces: "))
+nums = input("enter numbers seperated by spaces: ")
 nums_list = nums.split(" ")
+nums_list = [int(nums)]
 for num in nums_list:
-    if nums 
+    if num % 2 == 0:
+        print ("even")
+    else:
+        print ("odd")
